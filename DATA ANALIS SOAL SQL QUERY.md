@@ -1,3 +1,5 @@
+## ** SUMBER: https://github.com/LintangWisesa/Ujian_AnalyticsVisualization_JCDS08/blob/master/README.md**
+
 Soal 1  ( Distrubition Die Cast )
 
 # Soal Ujian Data Science - Data Analytics & Visualization

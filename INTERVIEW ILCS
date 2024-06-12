@@ -1,0 +1,22 @@
+Interview Javascript Developer PT ILCS
+ - Logika Tipe Data Contoh
+    - a. var a = 10; var b = "5" => dari variable tersebut tentukan result nya dari beberapa operator yang disedikan seperti <, ==, ==, >, +
+ - Query SQL
+    SELECT dp.nama_departemen, count(dk.id_karyawan) as jumlah_karyawan
+    from tb_karyawan dk
+    LEFT join tb_departemen dp
+    on dk.id_departemen = dp.id_departemen
+    group by dp.id_departemen
+
+
+    SELECT tb_karyawan.nama,  tb_departemen.nama_departemen, 
+      CASE 
+        WHEN tb_departemen.nama_departemen = 'IT' THEN 'Ya'
+        ELSE 'Tidak'
+      END AS bekerja_di_it
+    FROM 
+      tb_karyawan
+    LEFT JOIN 
+      tb_departemen 
+    ON 
+      tb_karyawan.id_departemen = tb_departemen.id_departemen;
